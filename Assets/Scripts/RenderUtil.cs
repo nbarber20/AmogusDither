@@ -13,7 +13,6 @@ public class RenderUtil : MonoBehaviour
     private void Awake()
     {
         m_camera = GetComponent<Camera>();
-        UpdateRenderTex();
     }
 
     private void Update()
